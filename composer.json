@@ -1,0 +1,30 @@
+{
+  "name": "okohei/line-notify",
+  "description": "PHP Line Notify Libraries",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kohei Ogawa",
+      "role": "Author"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "OKohei\\LineNotify\\": "src/"
+    },
+    "files": ["src/Script/functions.php"]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "OKohei\\LineNotify\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=5.6",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.5.4"
+  }
+}
